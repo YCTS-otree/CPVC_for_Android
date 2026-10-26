@@ -1,0 +1,17 @@
+{
+  "app": "CPVC_for_Android",
+  "latest": "1.4.0",
+  "published": "2026-10-26",
+  "notes": [
+    "新增启动后台更新检测和帮助／设置中的手动检查更新，使用 Android 独立 GitHub 更新清单。",
+    "同步桌面 CPVC 5.3.7：新增 Ace Pro 一代（Beta）、GO 3（Beta）和 DJI OSMO Action 1。",
+    "相机卡验证与编码模板检查分离，支持选择 DCIM 下已有输出文件夹。",
+    "新增终止／重试状态及完成项检查点，修改输入或参数后重新开始。",
+    "支持 Android 提供持久读取权限的媒体拖放；错误诊断不依赖普通日志开关。",
+    "GO 3 保留原生尺寸、显示矩阵和预留空间，不设人为时长及模板大小上限；Android 真机及相机播放仍待验证。"
+  ],
+  "download_pages": [
+    "https://github.com/YCTS-otree/CPVC_for_Android/releases"
+  ],
+  "min_supported": "1.0.0"
+}
