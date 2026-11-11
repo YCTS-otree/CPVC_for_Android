@@ -14,7 +14,8 @@
     "优化声音，修复声音异常问题"
   ],
   "download_pages": [
-    "https://github.com/YCTS-otree/CPVC_for_Android/releases/tag/v1.6.0"
+    "https://github.com/YCTS-otree/CPVC_for_Android/releases/tag/v1.6.0",
+    "https://gitee.com/otreee/CPVC_for_Android/"
   ],
   "min_supported": "1.0.0"
 }
