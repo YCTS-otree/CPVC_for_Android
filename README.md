@@ -12,7 +12,7 @@ Camera Preview Video Converter 的 Android 版本，当前版本 **1.4.0**。
 
 ## 功能
 
-- DJI OSMO Action 1、Action 2/3/4/5p、DJI goggles 视频／图片批量处理。
+- DJI OSMO Action 1/2/3/4/5p/6、Pocket 3/4、DJI goggles 视频／图片批量处理。
 - Insta360 Ace Pro 2；新增 Ace Pro 一代（Beta）和 GO 3（Beta），不支持 GO 3S。
 - 相机卡索引验证、已有 DCIM 输出文件夹选择、索引备份、写入回读校验及中断恢复。
 - 终止、重试、已完成项保留；输入、设备或参数变化后重新开始。
@@ -22,21 +22,9 @@ Camera Preview Video Converter 的 Android 版本，当前版本 **1.4.0**。
 
 Insta360 基础导入需要对应的 Android 许可证；DJI 为独立流程。Android 与桌面许可证不通用。
 
-## 1.4.0 更新
-
-同步桌面 CPVC 5.3.7 中适用于 Android 的设备适配、索引验证、终止／重试、拖放和诊断改进，并加入独立更新检测。
-
-Ace Pro 一代使用 1280×720 H.264 LRV；Ace Pro 2 使用 854×480 H.264 LRV，两者均保留黑色 HEVC 主视频与真实音频策略。GO 3 使用独立 H.264 主视频／LRV 结构，保留原生 1088×1920 / 384×640 尺寸、显示矩阵、预留空间及 AVC 封面，支持完整输入时长和无声输入补静音。
-
-GO 3 需保留原生 1088×1920 / 30fps 主视频与配对 LRV，不设人为 10 分钟或 128 MiB 模板上限。实际能力仍受格式、手机空间和内存约束。导入后请将相机彻底关机再开机，刷新图库。
-
-**Ace Pro 一代和 GO 3 为 Beta。自动测试和电脑上的媒体解码检查不能代替 Android 真机与相机播放验证；新增适配仍需实机回归。** Android 使用自身可用的 MediaCodec／软件编码路径；桌面 NVIDIA、AMD、Intel 编码器及显卡库不适用于 Android。
-
 ## 下载与安装
 
 [GitHub 下载页](https://github.com/YCTS-otree/CPVC_for_Android/releases)
-
-安装包发布后会出现在 Releases；本次仅初始化说明和更新清单，尚未向 GitHub 上传 APK。升级请覆盖安装以保留数据及授权；签名身份变化可能改变授权设备标识。
 
 ## 更新清单
 
